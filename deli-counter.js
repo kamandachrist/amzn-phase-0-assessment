@@ -22,3 +22,17 @@
 // nowServing(katzDeli) //=> "Currently serving Grace."
 
 // line(katzDeli) //=> "The line is currently: 1. Kent 2. Matz"
+
+
+//const = [`Ada`, `Grace`, `Kent`]
+let = takeANumber(katzDeli, "Ada") //=> Welcome, Ada. You are number 1 in line.
+let = takeANumber(katzDeli, "Grace") //=> Welcome, Grace. You are number 2 in line.
+let = takeANumber(katzDeli, "Kent") //=> Welcome, Kent. You are number 3 in line.
+
+function takeANumber(katzDeli, array){
+    for(let i = 0; i < 3; i++){
+      console.log(takeANumber)
+    }
+  }
+
+  const katzDeli = [1, 2, 3]
